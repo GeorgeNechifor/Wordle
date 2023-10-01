@@ -1,0 +1,21 @@
+
+root{
+    --background:#e0fbfc;
+    --mainColor:#3d5a80;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background);
+    user-select: none;
+}
+.app{
+    height: 100vh;
+
+}
+.game{
+    display: grid;
+    place-items: center;
+}

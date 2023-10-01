@@ -1,0 +1,16 @@
+
+
+root{
+    --background:#e0fbfc;
+    --mainColor:#3d5a80;
+}
+
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #3d5a80;
+    color: #e0fbfc;
+}

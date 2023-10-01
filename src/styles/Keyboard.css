@@ -1,0 +1,81 @@
+
+
+.keyboard{
+    width: 80%;
+    height: 230px;
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+}
+.key{
+    height: 100%;
+    border: 2px solid #3d5a80;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    color: #333;
+}
+.key:hover{
+    background-color: #98b6ee;
+}
+.key-row{
+    display: flex;
+    height: 31%;
+    gap: 5px;
+    justify-content: center;
+}
+.handle{
+    border: 2px solid #3d5a80;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #333;
+}
+.handle:hover{
+    background-color: #98b6ee;
+}
+.gray{
+    color: aliceblue;
+    background-color: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid #494949;
+    transition: 300ms;
+}
+.yellow{
+    color: aliceblue;
+    background-color: #efdb07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 5px;border: 2px solid #efdb07;
+    transition: 300ms;
+}
+.green{
+    color: aliceblue;
+    background-color: #8df318;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid #8df318;
+    transition: 300ms;
+}
